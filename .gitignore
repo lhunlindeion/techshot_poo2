@@ -121,4 +121,6 @@ dmypy.json
 /.idea/vcs.xml
 /backend/cov_html/
 /backend/techshot.db
-.vscode/backend/volume/techshot.db
+/backend/volume/techshot.db
+.vscode
+volume

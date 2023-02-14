@@ -30,7 +30,6 @@ class ApiUsuario:
 
     def buscar_usuario_por_nome_usuario(self, nome_usuario:str,
                                         session: Session = Depends(get_session)):
-
         """
         Método responsável por buscar um usuário pelo nome de usuário
         :param nome_usuario: nome de usuário
@@ -65,7 +64,6 @@ class ApiUsuario:
             return servico.atualizar_usuario(usuario)
 
     def deletar_usuario(self, nome_usuario:str,
-
                         session: Session = Depends(get_session)):
         """
         Método responsável por deletar um usuário
